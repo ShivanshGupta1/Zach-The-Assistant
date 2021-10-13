@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zach - Your Assistant</title>
+  </head>
+  <body>
+    <section>
+      <h1>Virtual Chat-Bot</h1>
+      <h2>By Shivansh</h2>
+
+      <button><i class="fa fa-microphone"></i></button>
+
+      <div>
+        <p>You said: <em class="output-you"></em></p>
+        <p>Bot replied: <em class="output-bot"></em></p>
+      </div>
+      <audio id="myAudio">
+        <source src="PlaySound.mp3" type="audio/mpeg" />
+      </audio>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
